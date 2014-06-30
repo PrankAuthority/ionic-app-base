@@ -29,15 +29,18 @@
   <script src="js/services.js"></script>
   <script src="js/directives.js"></script>
 
+
+
+
 </head>
 
 <body ng-app="pa.app">
   <ion-nav-view></ion-nav-view>
 
-  <script src="lib/UserVoice/IDpv69TIMwE5sX5Sm1ZMjQ.js"></script>
-
   <script>
 
+// Include the UserVoice JavaScript SDK (only needed once on a page)
+UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='lib/UserVoice/IDpv69TIMwE5sX5Sm1ZMjQ.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
 
 //
 // UserVoice Javascript SDK developer documentation:
